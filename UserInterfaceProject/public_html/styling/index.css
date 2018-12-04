@@ -71,102 +71,78 @@ h1, h2, h3, h4, h5 {
 .container {
     margin: 0 auto;
     width: 880px;
-    height: 1500px;
 }
 
 
-.container header {
-    display: block;
-    width: 880px;
-    height: 42px;
+
+.nav  {
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
-.container header nav {
-    position: relative;
-    margin-left: 25px;
-    display: inline-block;
-    bottom: 20px;
+.nav a {
+    color: grey;
 }
 
-.container header img {
-    position: relative;
-    display: inline-block;
-    left: 200px;
+
+/* Top Content Box */
+.content1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid grey;
 }
 
-.topbox {
-    vertical-align: top;
-    width: 880px;
-    height: 400px;
-    display: inline-block;
-    margin-bottom: 50px;
-}
-
-.topbox.d1 {
-    padding-top: 50px;
-    position:relative;
-    display: inline-block;
-    width: 420px;
-    margin-left: 15px;
-}
-
-.topbox.d1 h2 {
+/* Top Header and Button */
+.contentbox1 {
     text-align: center;
-    font-size: 65px;
+    margin: 0 60px 0 0;
+    align-items: center;
 }
 
-.topbox.d1 button {
-    margin-left: 170px;
+.contentbox1 h2 {
+    font-size: 60px;
 }
 
-.topbox.d2 {
-    padding: 7px 0 0 13px;
-    height:400px;
-    position: relative;
-    display: inline-block;
-    width: 420px;
+/* Top image */
+.contentbox2 {
+    margin: 25px 0 25px 50px;
 }
 
-.bottombox {
-    border-top: 2px solid black;
-    padding: 20px 0 0 0;
-    position: absolute;
-    width: 880px;
-    height: 600px;
-    display:block;
-    vertical-align: top;
+/* First Row of Article content */
+.content2 {
+    margin: 20px 0 0 0;
+    justify-content: space-evenly;
+    display: flex;
 }
 
-.bottombox div div {
-    height: 150px;
+.textcard {
+    width: 40%;
+}
+
+/* Img in middle of Article content */
+.content3 {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+/* Bottom content row of Article content */
+.content4 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
     
 }
 
-.bottombox.textslots1 {
+.textcard2 {
     margin-bottom: 20px;
-    height: 150px;
-    width: 430px;
-    padding-left: 65px;
-    padding-right: 65px;
-    position: relative;
-    display:inline-block;
-}
-
-.bottombox.textslots2 {
-    margin-bottom: 20px;
-    height: 150px;
-    width: 285px;
-    position: relative;
-    display:inline-block;
-}
-
-.bottombox img {
-   margin-bottom: 20px;
+    width: 30%;
 }
 
 footer {
-    margin-top: 20px;
-    border-top: 2px solid black;
+    margin-bottom: 50px;
 }
-
-
