@@ -146,3 +146,8 @@ h1, h2, h3, h4, h5 {
 footer {
     margin-bottom: 50px;
 }
+
+.copyright {
+    text-align: center;
+    color: grey;
+}
