@@ -84,76 +84,93 @@ h1, h2, h3, h4, h5 {
     color: grey;
 }
 
+/* Top image on Services Page */
+.topimg {
+    margin: 15px 0 15px 0;
+}
 
-/* Top Content Box */
-.content1 {
-    align-items: center;
-    justify-content: center;
+/* First row of content */
+.topcontent {
+}
+.topcontent h1 {
+    font-size: 24px;
+}
+
+.topcontent p {
+    padding-bottom: 25px;
+}
+
+/* Two columns of text cards */
+.mainbox {
+    padding: 25px 0 5px 0;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    height: 810px;
+    flex-wrap: wrap;
     display: flex;
-    border-bottom: 1px solid grey;
-}
-
-/* Top Header and Button */
-.contentbox1 {
-    text-align: center;
-    margin: 0 60px 0 0;
-    align-items: center;
-}
-
-.contentbox1 h2 {
-    font-size: 60px;
-}
-
-.contentbox1 button {
-    border-radius: 5px;
-    width: 150px;
-    height: 40px;
-    border: 1px solid grey;
-}
-
-/* Top image */
-.contentbox2 {
-    margin: 25px 0 25px 50px;
-}
-
-/* First Row of Article content */
-.content2 {
-    margin: 40px 0 0 0;
-    justify-content: space-around;
-    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
 }
 
 .textcard {
-    width: 40%;
+    background-color: lightgrey;
+    padding: 20px 0 0 20px;
+    margin: 10px 0 10px 0;
+    height: 30%;
+    width: 47%;
+    border: 1px solid black;
 }
 
-/* Img in middle of Article content */
-.content3 {
+.textcard h2 {
+    font-size: 22px;
+    margin-bottom: 12%;
+}
+
+.textcard p {
+    margin-bottom: 10px;
+}
+
+.textcard button {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+/* Footer content */
+.bottombox {
+    margin: 20px 0 40px 0;
+    display: flex;
     justify-content: space-between;
-    display: flex;
-    align-items: center;
-    height: 250px;
 }
 
-/* Bottom content row of Article content */
-.content4 {
+.bottomcontent {
+    width: 40%;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    border-bottom: 1px solid grey;
+    justify-content: flex-start;
+}
+
+.bottomcontent h2 {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.bottomcontent ul li {
+    margin-left: 20px;
+}
+
+.bottomimg {
+    width: 40%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
     
 }
 
-.textcard2 {
-    margin-bottom: 45px;
-    width: 30%;
-}
-
-footer {
-    margin-bottom: 50px;
-}
-
 .copyright {
-    text-align: center;
+    margin: 15px 0 25px 0;
     color: grey;
+    text-align: center;
 }
+
